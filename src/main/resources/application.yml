@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: true
+    database: mysql
+  datasource:
+    # local
+    url: jdbc:mysql://localhost:3306/spring_jwt #?createDatabaseIfNotExist=true
+    username: root
+    password: 13042003
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+com:
+  app:
+    jwt:
+      jwtSecret: 4bb6d1dfbafb64a681139d1586b6f1160d18159afd57c8c79136d7490630407c
+      jwtExpiration: 7200 # 7200 seconds = 2 hours
+      jwtRefreshExpiration: 18000 # 18000 seconds = 5 hours
