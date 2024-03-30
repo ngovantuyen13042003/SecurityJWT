@@ -1,6 +1,6 @@
 package nvt.st.securityjwt.security;
 
-import nvt.st.securityjwt.model.User;
+import nvt.st.securityjwt.model.authentication.User;
 import nvt.st.securityjwt.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;

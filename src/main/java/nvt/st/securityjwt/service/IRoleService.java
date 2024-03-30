@@ -1,7 +1,7 @@
 package nvt.st.securityjwt.service;
 
-import nvt.st.securityjwt.model.ERole;
-import nvt.st.securityjwt.model.Role;
+import nvt.st.securityjwt.model.authentication.ERole;
+import nvt.st.securityjwt.model.authentication.Role;
 
 import java.util.Collection;
 import java.util.List;

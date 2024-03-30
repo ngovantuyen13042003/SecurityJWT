@@ -17,7 +17,7 @@
 		<java.version>17</java.version>
 		<io.jsonwebtoken.version>0.11.5</io.jsonwebtoken.version>
 		<cloudinary.version>1.36.0</cloudinary.version>
-
+		<modelMapper.version>3.0.0</modelMapper.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -67,6 +67,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>${modelMapper.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>

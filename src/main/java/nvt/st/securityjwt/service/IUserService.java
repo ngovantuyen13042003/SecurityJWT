@@ -1,6 +1,6 @@
 package nvt.st.securityjwt.service;
 
-import nvt.st.securityjwt.model.User;
+import nvt.st.securityjwt.model.authentication.User;
 
 import java.util.Optional;
 

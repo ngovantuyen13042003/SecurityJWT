@@ -7,7 +7,7 @@ import java.util.List;
 
 @Data
 @Builder
-public class PaginationResource<T> {
+public class PaginationResponse<T> {
     private List<T> data;
     private Integer pageNumber;
     private Integer pageSize;

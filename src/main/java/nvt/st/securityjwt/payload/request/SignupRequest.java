@@ -2,7 +2,6 @@ package nvt.st.securityjwt.payload.request;
 
 import jakarta.persistence.Column;
 import lombok.Data;
-import nvt.st.securityjwt.model.Role;
 
 import java.util.Collection;
 

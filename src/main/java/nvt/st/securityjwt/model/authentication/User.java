@@ -1,7 +1,8 @@
-package nvt.st.securityjwt.model;
+package nvt.st.securityjwt.model.authentication;
 
 import jakarta.persistence.*;
 import lombok.*;
+import nvt.st.securityjwt.model.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -18,7 +19,7 @@ public class User extends BaseEntity {
     private String password;
     private Boolean enabled;
 
-    @ManyToMany(mappedBy = "users")
+    @ManyToMany
     @JoinTable(
             name = "user_role",
             joinColumns = @JoinColumn(

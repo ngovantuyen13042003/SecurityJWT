@@ -1,6 +1,6 @@
 package nvt.st.securityjwt.service.impl;
 
-import nvt.st.securityjwt.model.User;
+import nvt.st.securityjwt.model.authentication.User;
 import nvt.st.securityjwt.repository.UserRepository;
 import nvt.st.securityjwt.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;

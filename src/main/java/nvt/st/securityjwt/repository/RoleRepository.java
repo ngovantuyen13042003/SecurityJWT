@@ -1,7 +1,7 @@
 package nvt.st.securityjwt.repository;
 
-import nvt.st.securityjwt.model.ERole;
-import nvt.st.securityjwt.model.Role;
+import nvt.st.securityjwt.model.authentication.ERole;
+import nvt.st.securityjwt.model.authentication.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

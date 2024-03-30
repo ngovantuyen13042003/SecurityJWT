@@ -1,7 +1,7 @@
 package nvt.st.securityjwt.service.impl;
 
-import nvt.st.securityjwt.model.ERole;
-import nvt.st.securityjwt.model.Role;
+import nvt.st.securityjwt.model.authentication.ERole;
+import nvt.st.securityjwt.model.authentication.Role;
 import nvt.st.securityjwt.repository.RoleRepository;
 import nvt.st.securityjwt.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,7 +3,6 @@ package nvt.st.securityjwt.jwt;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import nvt.st.securityjwt.model.User;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
@@ -83,7 +82,7 @@ public class JwtTokenProvider {
             return true;
         } catch (MalformedJwtException e) {
             throw new JwtException("Invalid JWT token");
-        } catch (ExpiredJwtException e) {
+        } catch (ExpiredJwtException  e) {
             throw new JwtException("Expired JWT token");
         } catch (UnsupportedJwtException e) {
             throw new JwtException("Unsupported JWT token");
